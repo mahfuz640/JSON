@@ -11,10 +11,20 @@
     <h2>Javascript Object Notation</h2>
     
     <script>
-        const user ={id: 245, name : "Masud"}
+
+        const user = {
+            id:242,
+            name:"Masud",
+            friendsAge:[12,42,56],
+            friend:["Kamal","Jamal","salam"]
+        };
+
+
+        // const user ={id: 245, name : "Masud"}
 
     // {"id":245,"name":"Masud"}---stringigy use korar karone full user ta sting hoyegese
         const userJSON=JSON.stringify(user);
+        // backend theke font-end a patate shubida hobe
         console.log(userJSON);
     </script>
 </body>
